@@ -20,6 +20,7 @@ Protein sequences and functional annotations obtained from UniProt.
 
 ## Results
 A Random Forest classifier achieved ~90% accuracy in distinguishing enzyme and non-enzyme proteins using sequence-derived features, significantly outperforming a Logistic Regression baseline.
+Feature importance analysis revealed that structural and physicochemical properties, along with key catalytic amino acids, were the dominant factors distinguishing enzymes from non-enzymes.
 
 ## Tools
 Python, scikit-learn, BioPython, pandas, numpy
