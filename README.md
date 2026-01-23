@@ -75,32 +75,6 @@ Confusion matrices
 A Random Forest classifier achieved ~90% accuracy in distinguishing enzyme and non-enzyme proteins using sequence-derived features, significantly outperforming a Logistic Regression baseline.
 Feature importance analysis revealed that structural and physicochemical properties, along with key catalytic amino acids, were the dominant factors distinguishing enzymes from non-enzymes.
 
-## How to run and reproduce results
-
-1. Clone the repository
-
-   ```bash
-git clone https://github.com/yourusername/protein-function-classification-ml.git
-cd protein-function-classification-ml
-
-2. Install dependencies
-
-   pip install -r requirements.txt
-
-3. Run the notebooks in this order
-
-   Run the notebooks in the following order:
-
-01_data_collection_and_cleaning.ipynb
-
-02_feature_engineering.ipynb
-
-03_model_training.ipynb
-
-4. Run inference on new protein using
-
-   python run_inference.py
-
 
 ## Tools
 Python, scikit-learn, BioPython, pandas, numpy
